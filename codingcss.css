@@ -1,0 +1,140 @@
+body{
+    color: rgb(39, 99, 80);
+    background-color: rgb(233, 243, 243);
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-size: 100% 100%;
+}
+a{ color: black; text-decoration: none;}
+a:link{ text-decoration: none;}
+a:visited{ text-decoration: none;}
+a:hover{ color: darkseagreen;background-color: none; text-decoration: none;}
+#n1{ 
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+}
+#n2{
+    list-style-type: none;
+    background-color: darkseagreen;
+    padding: 0px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.n3{
+    float: left;
+    padding:8px;
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.n3 a{
+    display: block;
+
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.n3 :hover{
+    color: darkseagreen;
+    background-color: darkgreen;
+    transform: scale(1.5);
+}
+.d3-d4{
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+#d3{
+    float: left;
+}
+#d3a{
+    height: 850px;
+}
+#d4a{
+    text-align: center;
+}
+#d4b{ 
+    height: 470px;
+}
+footer
+{ padding-left: 15%;
+padding-bottom: 15%;}
+
+#p1{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#post1{ text-align: center;}
+.b1{
+   width: 160px;
+   height: 120px;
+   display: inline;
+}
+#post2{
+    padding-bottom: 130px;
+}
+.b2{ 
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 160px;
+    height: 120px;
+    display: inline;
+    text-align: center;
+    float: left;
+}
+#post3{padding-bottom: 130px;}
+.b3{
+    border: 1px solid green;
+    width: 160px;
+    height: 120px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+#b3p1{ float: left;}
+#b3p3{ float: right;}
+#b3p2{ text-align: center;}
+#post4{
+    padding-bottom: 130px;
+}
+.b4{
+    width: 160px;
+    height: 120px;
+    border: 1px solid orange;
+    float: left;
+    position: absolute;
+    margin-left: 4%}
+#post5{ padding-bottom: 40px;
+    height: 240px;
+}
+
+.b5{
+    z-index: 1;
+    float: left;
+    width: 70px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease-in-out;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.b5:hover{ 
+    box-shadow: 0 0 2px 2px rgb(119, 131, 131);
+    width: 160px;
+    height: 160px;
+}
+#b5p1 :hover{ z-index: 1;}
+#b5p2 :hover{ z-index: 1;}
+#b5p3 :hover{ z-index: 1;}
+#b5p4 :hover{ z-index: 1;}
+#b5p5 :hover{ z-index: 1;}
+#f1{
+    text-align: center;
+    font-weight: 700;
+    text-decoration-line: underline;
+    font-size: large;
+    margin-bottom: 40px;
+}
